@@ -36,24 +36,30 @@ namespace DemoBarcodeLib
     [ContextClass("ДемоГенераторШтрихкодовОбъект", "DemoBarcodeGeneratorObject")]
     public class DemoBarcodeLibImpl : AutoContext<DemoBarcodeLibImpl>
     {
-        BarcodeLib.Barcode _barcode = new BarcodeLib.Barcode();
+        BarcodeLib.Barcode _barcode; 
 
         public DemoBarcodeLibImpl()
         {
-
+            _barcode = new BarcodeLib.Barcode();
+            _barcode.IncludeLabel = true;
+            _barcode.LabelPosition = BarcodeLib.LabelPositions.BOTTOMCENTER;
+            _barcode.RotateFlipType = System.Drawing.RotateFlipType.RotateNoneFlipNone;
+            _barcode.Alignment = BarcodeLib.AlignmentPositions.CENTER;
+            _barcode.ForeColor = System.Drawing.Color.Black;
+            _barcode.BackColor = System.Drawing.Color.White;
         }
 
         [ContextMethod("СгенерироватьШтрихкод", "GenerateBarcode")]
         public void Add(string text, int width, int height)
         {
-            _barcode.Encode(BarcodeLib.TYPE.CODE128, text, System.Drawing.Color.Black, System.Drawing.Color.White, width, height);
+            _barcode.Encode(BarcodeLib.TYPE.CODE128C, text, width, height);
             if (_barcode.Errors.Count > 0)
             {
                 throw new Exception(_barcode.Errors[0]);
             }
         }
 
-        [ContextMethod("СохранитьШтрихкод", "SaveBarcode")]
+        [ContextMethod("СохранитьИзображение", "SaveImage")]
         public void Save(string fileName)
         {
             _barcode.SaveImage(fileName, BarcodeLib.SaveTypes.PNG);
