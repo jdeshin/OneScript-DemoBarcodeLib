@@ -261,17 +261,17 @@ __pycache__/
 *.pyc
 
 # OneScript platform files
-OneScript/*.dll
-OneScript/*.exe
-OneScript/*.xml
-OneScript/*.cfg
-OneScript/*.zip
-OneScript/*.bat
+/OneScript/*.dll
+/OneScript/*.exe
+/OneScript/*.xml
+/OneScript/*.cfg
+/OneScript/*.zip
+/OneScript/*.bat
 
 # oscript-sql binaries
-BarcodeLib/*.dll
-BarcodeLib/*.exe
-BarcodeLib/*.xml
-BarcodeLib/*.cfg
-BarcodeLib/*.zip
-BarcodeLib/*.bat
+/BarcodeLib/*.dll
+/BarcodeLib/*.exe
+/BarcodeLib/*.xml
+/BarcodeLib/*.cfg
+/BarcodeLib/*.zip
+/BarcodeLib/*.bat
