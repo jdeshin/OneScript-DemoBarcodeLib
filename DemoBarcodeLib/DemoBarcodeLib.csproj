@@ -30,6 +30,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BarcodeLib">
+      <HintPath>..\Barcode\BarcodeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ScriptEngine">
+      <HintPath>..\OneScript\ScriptEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="ScriptEngine.HostedScript">
+      <HintPath>..\OneScript\ScriptEngine.HostedScript.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
