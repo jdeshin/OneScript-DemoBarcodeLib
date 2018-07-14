@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OneScript", "OneScript", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BarcodeLib", "BarcodeLib", "{DAD14C7E-FD48-43CD-8509-82661123B782}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoBarcodeLibCom", "DemoBarcodeLibCom\DemoBarcodeLibCom.csproj", "{F9A11801-7C64-4AA1-85F2-02FCB6F40566}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{F7BFE2D3-FF40-4E1F-8A62-990DE04C7FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7BFE2D3-FF40-4E1F-8A62-990DE04C7FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7BFE2D3-FF40-4E1F-8A62-990DE04C7FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A11801-7C64-4AA1-85F2-02FCB6F40566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A11801-7C64-4AA1-85F2-02FCB6F40566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A11801-7C64-4AA1-85F2-02FCB6F40566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A11801-7C64-4AA1-85F2-02FCB6F40566}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
