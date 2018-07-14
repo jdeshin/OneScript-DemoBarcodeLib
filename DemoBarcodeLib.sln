@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoBarcodeLib", "DemoBarcodeLib\DemoBarcodeLib.csproj", "{F7BFE2D3-FF40-4E1F-8A62-990DE04C7FE9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OneScript", "OneScript", "{E51D267D-1BBA-47BF-AA5B-C53A164435D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BarcodeLib", "BarcodeLib", "{DAD14C7E-FD48-43CD-8509-82661123B782}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

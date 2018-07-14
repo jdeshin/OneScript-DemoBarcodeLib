@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DemoBarcodeLib
 {
-    public class Class1
+    public class DemoBarcodeLib
     {
     }
 }
